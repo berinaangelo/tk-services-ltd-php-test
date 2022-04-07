@@ -8,8 +8,11 @@
 
 ## Setup
 * Change permissions and ownership of repo
+
     `sudo chown -R {<USERNAME>}:${<USERNAME>} <ROOT_FOLDER_NAME>`
+
     `sudo chmod -R 755 <ROOT_FOLDER_NAME>`
+
 * Update .env.backup file database credentials
     ```
     DB_CONNECTION=mysql
@@ -20,8 +23,11 @@
     DB_PASSWORD=<DATABASE_PASSWORD>
     ```
 * Adjust permission and execute `setup.sh`
+
     `cd <ROOT_FOLDER_NAME>`
+
     `sudo chmod a+x ./bin/setup.sh`
+
     `./bin/setup.sh`
 
 ## Running the development server
