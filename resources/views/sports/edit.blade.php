@@ -1,0 +1,1 @@
+@include('sports._form', ['formAction' => "sports/$sport->id", 'formTitle' => 'Edit Sport'])
